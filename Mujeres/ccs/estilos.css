@@ -1,0 +1,175 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #E7E8E9;
+}
+header{
+    width: 100%;
+    background: linear-gradient(30deg, #000000, #898D92);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.buscador{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+input.src{
+	padding: 9px 10px 9px 32px;
+	outline:none;
+	font-size: 18px;
+	border-radius: 15px;
+	color:#444;
+	border: 3px solid a50559;
+	background: #fff url("../../img/search-icon.png") no-repeat 9px center;
+	width: 60px;
+	transition: all .5s;
+
+}
+input.src:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #8c10b3;
+	box-shadow: 0 0 5px #6dcff680;
+
+}
+.galeria{
+	float: right;
+	border-left:solid;
+	border-color: #fff;
+	width: 80%;
+	height: 100%;
+	font-family: 'open sans';
+}
+.galeria h1{
+	text-align: center;
+	margin:20px 0 15 px 0;
+	font-weight: 300;
+}
+.linea{
+	border-top:5px solid #E170E8;
+	margin-bottom: 40px;
+}
+
+.contenedor-imagenes{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-radius:3pX; 
+}
+
+.contenedor-imagenes .imagen{
+	width: 32%;
+	position: relative;
+	height: 250px;
+	margin-bottom: 5px;
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,75);
+}
+
+.imagen img{
+	width:100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(225, 112, 232, 0.781);
+	width: 100%;
+	height: 0;
+	transition: 1s ease;
+	overflow: hidden;
+}
+
+overlay h2{
+	color: #fff;
+	font-weight: 300;
+	font-size: 30px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+
+}
+
+.imagen:hover .overlay{
+	height: 100%;
+	cursor:pointer;
+}
+aside{
+	position: absolute;
+	float: left;
+	width: 15%;
+	
+}
+aside h2{
+	text-align: center;
+	margin:10px 0 10 px 0;
+	font-weight: 300;
+	border-radius: 10px;
+	background: #fff;
+}
+
+.categorias li{
+	width: 50%;
+	height: 17px;
+	padding-bottom: 30px;
+	font-size: 20px;
+
+}
+
+.categorias li a{
+	text-decoration: none;
+	width: 100%;
+	color: black;
+}
+footer{
+    padding: 50px;
+    justify-content: space-evenly;
+    clear: both;
+    width: 100%;
+    background: linear-gradient(30deg, #000000, #898D92);
+    display: flex;
+    color: white;
+}
+footer .final{
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+.final a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer .redes{
+    display: flex;
+}
+
+.redes a{
+    padding-inline-start: 10px;
+}

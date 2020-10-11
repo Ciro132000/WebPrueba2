@@ -1,0 +1,95 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+    background: #E7E8E9;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background: linear-gradient(30deg, #000000, #898D92);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+li a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.buscador{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section{
+    width: 60%;
+    margin:auto;
+}
+
+section .nosotros{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+
+.nosotros img{
+	border-radius: 18px;
+	box-shadow: 2px 2px 5px #999;
+}
+
+input.src{
+	padding: 9px 10px 9px 32px;
+	outline:none;
+	font-size: 18px;
+	border-radius: 15px;
+	color:#444;
+	border: 3px solid a50559;
+	background: #fff url("../../img/search-icon.png") no-repeat 9px center;
+	width: 60px;
+	transition: all .5s;
+
+}
+input.src:hover{
+	width: 180px;
+	background-color: #fff;
+	border-color: #8c10b3;
+	box-shadow: 0 0 5px #6dcff680;
+}
+footer{
+    padding: 50px;
+    justify-content: space-evenly;
+    clear: both;
+    width: 100%;
+    background: linear-gradient(30deg, #000000, #898D92);
+    display: flex;
+    color: white;
+}
+footer .final{
+    display: flex;
+    font-size: 18px;
+    color: white;
+}
+.final a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+footer .redes{
+    display: flex;
+}
+
+.redes a{
+    padding-inline-start: 10px;
+}
