@@ -52,6 +52,15 @@ input.src:hover{
 	box-shadow: 0 0 5px #6dcff680;
 
 }
+@media screen and (max-width:1150px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
 .galeria{
 	float: right;
 	border-left:solid;

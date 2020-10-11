@@ -36,6 +36,15 @@ section{
     width: 60%;
     margin:auto;
 }
+@media screen and (max-width:1150px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+}
 
 section .nosotros{
     display: flex;
